@@ -147,9 +147,9 @@ body {
     margin: 15px 0 15px 30px;
 }
 
-@media (width < 640px) {
+@media (width < 690px) {
     body{
-        padding: 20px;
+        padding: 30px;
     }
 
     #auto-clicker-div{
