@@ -42,6 +42,9 @@ btnToggle.addEventListener('click', function () {
 // Clear Display
 btnClr.addEventListener('click', function(){
     num = 0;
+    clearInterval(autoClickInterval);
+    autoClickInterval = null;
+    btnToggle.textContent = 'START';
     updtNum();
 });
 
